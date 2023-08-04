@@ -1,5 +1,13 @@
-.topic {
-  background-color: #ebebeb;
-  height: 300px;
-  border: 1px solid #f0aeae;
+.container {
+  background-color: indigo;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  gap: 2px;
+}
+
+.item {
+  color: white;
+  font-size: 25px;
+  background-color: orangered;
 }
